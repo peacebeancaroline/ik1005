@@ -1,0 +1,429 @@
+#container {
+    width:1200px;
+    height:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid white;
+    
+}
+body{
+    background-image: url("http://users.du.se/~h16vikgr/ik1075/peace_beans/bilder/beansbg.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+
+    width: 85%;
+    height: 230px;
+    background-color:white;
+    float: left;
+    outline: 1px solid white;
+    margin: 0;
+    padding: 0;
+	font-family:"Arial Black";
+	
+}
+
+
+
+.identity{
+
+    width: 15%;
+    height: 230px;
+    background-color: white;
+    float:right;
+    outline: 1px solid white;
+    margin: 0;
+    padding:0;
+    font-family:"Arial Black";
+}
+
+.Flaggor {
+
+    margin:auto;
+    padding-left:20%;
+    padding-right:20%;
+
+}
+
+.Kundkorg{
+    margin:auto;
+    padding-left:33%;
+	margin-right:10px;
+
+}
+
+.divLogga{
+    float:left;
+
+}
+.searchfield {
+    float:left;
+    font-family:Arial;
+    border:solid black 4px;
+    
+    color: black;
+    height:43px;
+    width:94%;
+    font-size:18px;
+    border-radius:25px;
+    margin-top:40px;
+    padding-right:10px;
+}
+
+.divTitel {
+font-family: Arial;
+font-size:3.2em;
+text-align: center;
+
+}
+
+a:link{ text-decoration: none;
+    color:black;
+
+}
+a:visited { text-decoration: none;
+    color:black;
+}
+a:hover {
+    text-decoration:none;
+    color:black;
+}
+a:active {
+    text-decoration:none;
+    color:red;
+}
+
+
+
+nav {
+    width:84%;
+    height:50px;
+    background-color:white;
+    float:right;
+    outline: 1px solid white;
+    font-family:"Arial";
+
+}
+
+.wrap {
+width : 84%;
+height : 50px;
+background-color : white;
+float : left;
+outline : 0 solid white;
+}
+
+
+.wrap ul {
+list-style : none;
+position : relative;
+margin : 0;
+padding : 0;
+}
+
+
+.wrap ul a {
+display : block;
+color : #000;
+text-decoration : none;
+font-weight : normal;
+font-size : 1.5em;
+line-height : 50px;
+padding : 0 15px;
+font-family : Arial, sans-serif;
+}
+
+
+
+
+.wrap ul li {
+position : relative;
+float : left;
+margin : 0;
+padding : 0;
+}
+
+
+
+.wrap ul li a:hover {
+background :#555;
+color :white;
+}
+.wrap ul ul {
+display : none;
+position : absolute;
+top : 100%;
+background : #fff;
+padding : 0;
+}
+.wrap ul ul li {
+width : 200px;
+}
+.wrap ul ul a {
+line-height : 120%;
+padding : 10px 15px;
+color : #000;
+}
+.wrap ul ul ul {
+top : 0;
+left : 100%;
+}
+.wrap ul li:hover > ul {
+display : block;
+}
+.wrap ul li {
+padding : 0;
+}
+.wrap ul li a:hover {
+color :white;
+}
+
+section {
+    width:84%;
+    height:320px;
+    background-color: white;
+    outline: 1px solid white;
+    float:right;
+}
+
+.text {
+	margin-left:210px;
+	font-size:1.5em;
+	
+	
+}
+
+.kampanj {
+	margin-left:245px;
+	margin-bottom:40px;
+	font-size:1em;
+}
+
+h1{
+    font-family:"Arial";
+    color : black;
+    margin-left:230px;
+    font-size:2.0em;
+}
+
+p {
+    font-family:"Arial";
+    font-size:1.8em;
+    color:maroon;
+    text-align:justify;
+    padding-left:15px;
+    padding-right:50px;
+}
+
+#slides {
+    position: relative;
+    width:80%;
+    height:520px;
+    list-style-type: none;
+    float:right;
+
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    float:right;
+    float:left;
+    width:50%;
+    height: 470px;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.slide{
+    font-size: 40px;
+    box-sizing: border-box;
+
+
+}
+
+.controls {
+
+    font-family:"Arial";
+    font-size:1.0em;
+    color: black;
+    background-color: white;
+    margin-top : 480px;
+}
+
+aside {
+	width : 16%;
+	height : 980px;
+	background-color : white;
+	outline : 1px solid white;
+	float : left;
+	font-family :"Arial";
+
+}
+
+
+aside ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    font-size: 1.5em;
+
+}
+
+
+aside ul li a {
+    display:block;
+    color:#000;
+    padding:30px 10px;
+    text-decoration:none;
+    font-family:"Arial";
+}
+
+aside ul li a:hover {
+    background-color:#555;
+    color:white;
+}
+
+aside ul li {
+    text-align:center;
+}
+
+article {
+    width:84%;
+    height:610px;
+    outline:1px solid white;
+    background-color:white;
+    float:right;
+
+
+}
+
+
+h3 {
+    font-family: Arial;
+
+}
+
+.content {
+    width:60%;
+    height:710px;
+    outline:0px solid black;
+    background-color:white;
+    float:left;
+    padding-top: 40px;
+
+}
+
+
+
+
+
+
+.leveransvilkor{
+	width:8%; 
+	height:auto; 
+	color:black; 
+	text-decoration:none;
+}
+
+
+
+footer {
+    width:100%;
+    height:160px;
+    background-color:white;
+    float:right;
+    outline: 1px solid white;
+    color:black;
+    font-family: Arial;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #container{
+
+    }
+
+    main{
+        width:100%;
+    }
+
+    .identity{
+        width:20%;
+    }
+
+    header{
+        width:80%;
+    }
+
+    .wrap{
+        width:100%;
+    }
+
+    .section{
+        width:85%;
+    }
+
+    .article{
+        width:80%;
+    }
+
+    .head_img{
+        width:100%;
+    }
+
+    .share{
+        width:5%;
+        height:50%;
+
+    }
+
+    footer{
+        width:100%;
+    }
+
+    .additem{
+        width:50%;
+        border-top: 3px solid gray;
+    }
+
+    .vara{
+        width:50%;
+        height:38%
+    }
+
+    .description{
+        width:80%;
+        height:40%;
+        float:left;
+    }
+
+    .row{
+        width:40%;
+        height:30%;
+    }
+
+    .aside{
+        width:100%;
+    }
+
+    #ProductSearchTextInput{
+        width:20%;
+        height:50%;
+    }
+}
+
+
